@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: docker push suleyman15700/app1-backend:v1.0.0
+          image: suleyman15700/app1-backend:v1.0.0
           ports:
             - containerPort: 5000
